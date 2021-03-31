@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waste Management Web Service</title>
+    <title>SWE</title>
     <link rel="shortcut icon" href="src/img/favicon.png" type="image/png">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -19,7 +19,7 @@
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="src/img/favicon.png" alt="" width="5%">
-              Waste Management Web Service
+              Sensor Web Enablement
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -30,18 +30,18 @@
     <div class="mt-5 container custom-border">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="wms-tab" data-toggle="tab" href="#wms" role="tab" aria-controls="home" aria-selected="true">WMS</a>
+              <a class="nav-link active" id="sos-tab" data-toggle="tab" href="#sos" role="tab" aria-controls="home" aria-selected="true">SOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="wfs-tab" data-toggle="tab" href="#wfs" role="tab" aria-controls="profile" aria-selected="false">WFS</a>
+              <a class="nav-link" id="wfs-tab" data-toggle="tab" href="#wfs" role="tab" aria-controls="profile" aria-selected="false">SAS</a>
             </li>
             
           </ul>
           <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="wms" role="tabpanel" aria-labelledby="home-tab">
+            <div class="tab-pane fade show active" id="sos" role="tabpanel" aria-labelledby="home-tab">
                 <div class="row">
                     <div class="col-md-6">
-                        <form id="wmsform">
+                        <form id="sosform">
                             <div class="form-group">
                               <label for="exampleInputEmail1">Available URLs</label>
                               <select class="form-control" name="url" id="urls" required>
@@ -91,7 +91,7 @@
                           </form>
                     </div>
                     <div class="col-md-6">
-                      <div id="wms_map" class="map" style="height: 400px;width: 100%;">
+                      <div id="sos_map" class="map" style="height: 400px;width: 100%;">
                       </div>
                     </div>
                 </div>
